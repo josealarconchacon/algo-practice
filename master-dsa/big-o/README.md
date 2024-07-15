@@ -26,3 +26,6 @@ Explore how an algorithm's efficiency scales with an increasing number of elemen
 - **O(n^2)**: Quadratic time complexity
 - **O(2^n)**: Exponential time complexity
 - **O(n!)**: Factorial time complexity
+
+- ![image](https://github.com/user-attachments/assets/928d6328-d6b5-430d-8bd2-b69b35b15907)
+
