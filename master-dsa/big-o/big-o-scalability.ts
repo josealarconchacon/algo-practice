@@ -26,6 +26,7 @@ function color(colors: string[]) {
   for (let c = 0; c < colors.length; c++) {
     // Check if the current color name is "red"
     if (colors[c] === "red") {
+      //
       // If "red", log a message indicating it was found
       console.log(`Found color name ${colors[c]}`);
     }
