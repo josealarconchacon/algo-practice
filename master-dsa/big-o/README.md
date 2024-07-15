@@ -1,28 +1,28 @@
-# Big O Notation
+# Understanding Big O Notation
 
-## Goal
-Understand how an increasing number of elements affect an algorithm's runtime.
+Explore how an algorithm's efficiency scales with an increasing number of elements.
 
-## 5 Rules
-1. **Analyze the worst-case performance of the algorithm, i.e., Big O**
-2. **Add steps in order (+); multiply nested steps (*)**
-3. **Different inputs should have different variables, e.g., O(a + b)**
-4. **Remove constants**
-5. **Drop non-dominant terms**
+## Key Principles
 
-## 3 Types of Time Complexity
+1. **Evaluate the worst-case performance using Big O notation**
+2. **Combine steps sequentially (+) and multiply nested steps (*)**
+3. **Assign different variables for different inputs, e.g., O(a + b)**
+4. **Eliminate constants from complexity analysis**
+5. **Focus on dominant terms in time complexity**
 
-### 1. Big O – Worst Case
+## Types of Time Complexity
 
-#### Ideal
-- **O(1)** – Constant time complexity
-- **O(log n)** – Logarithmic time complexity
-- **O(n)** – Linear time complexity
+### Big O – Worst Case Scenario
+
+#### Optimal
+- **O(1)**: Constant time complexity
+- **O(log n)**: Logarithmic time complexity
+- **O(n)**: Linear time complexity
 
 #### Acceptable
-- **O(n * log n)** – Log Linear time complexity
+- **O(n * log n)**: Log Linear time complexity
 
-#### Avoid
-- **O(n^2)** – Quadratic time complexity
-- **O(2^n)** – Exponential time complexity
-- **O(n!)** – Factorial time complexity
+#### Discouraged
+- **O(n^2)**: Quadratic time complexity
+- **O(2^n)**: Exponential time complexity
+- **O(n!)**: Factorial time complexity
