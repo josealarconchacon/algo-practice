@@ -10,7 +10,7 @@ Explore how an algorithm's efficiency scales with an increasing number of elemen
 4. **Eliminate constants from complexity analysis**
 5. **Focus on dominant terms in time complexity**
 
-## Types of Time Complexity
+## Time Complexity
 
 ### Big O – Worst Case Scenario
 
